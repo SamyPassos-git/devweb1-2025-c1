@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samyla Passos - Desenvolvedora de Software</title>
+    <meta name="description" content="Portfolio de Samyla Passos, desenvolvedora de software especializada em Web, Python e Machine Learning">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h2 class="logo">Samyla Passos</h2>
+                <div class="header-controls">
+                    <button id="theme-toggle" class="control-btn" aria-label="Toggle theme">
+                        <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="5"/>
+                            <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+                        </svg>
+                        <svg class="moon-icon hidden" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                        </svg>
+                    </button>
+                    <button id="language-toggle" class="control-btn">
+                        <span class="language-text">EN</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-image">
+                        <div class="image-container">
+                            <img src="perfil.jpeg" alt="Samyla Passos" class="profile-image">
+                            <div class="accent-dot accent-dot-1"></div>
+                            <div class="accent-dot accent-dot-2"></div>
+                        </div>
+                    </div>
+                    <div class="hero-text">
+                        <div class="hero-intro">
+                            <p class="greeting" data-pt="Olá! Sou Samyla!" data-en="Hello! I'm Samyla!">Olá! Sou Samyla!</p>
+                            <h1 class="hero-title">
+                                <span data-pt="Desenvolvedora" data-en="Software">Desenvolvedora</span><br>
+                                <span class="accent-text" data-pt="de Software" data-en="Developer">de Software</span>
+                            </h1>
+                        </div>
+                        <p class="hero-description" 
+                           data-pt="Estudante de Análise e Desenvolvimento de Sistemas, apaixonada por criar soluções inovadoras com tecnologias web, Python e Machine Learning."
+                           data-en="Systems Development Analysis student, passionate about creating innovative solutions with web technologies, Python and Machine Learning.">
+                           Estudante de Análise e Desenvolvimento de Sistemas, apaixonada por criar soluções inovadoras com tecnologias web, Python e Machine Learning.
+                        </p>
+                        <div class="hero-actions">
+                            <button id="contact-btn" class="primary-btn">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                    <polyline points="22,6 12,13 2,6"/>
+                                </svg>
+                                <span data-pt="Entre em Contato" data-en="Get in Touch">Entre em Contato</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="sobre" class="about-section">
+            <div class="container">
+                <div class="section-content">
+                    <h2 class="section-title" data-pt="Sobre Mim" data-en="About Me">Sobre Mim</h2>
+                    <div class="about-grid">
+                        <div class="about-text">
+                            <p data-pt="Sou estudante de Análise e Desenvolvimento de Sistemas, com foco em desenvolvimento web e tecnologias emergentes. Tenho experiência prática em Python, desenvolvimento web moderno e estou explorando o fascinante mundo do Machine Learning."
+                               data-en="I am a Systems Development Analysis student, focused on web development and emerging technologies. I have practical experience in Python, modern web development and I'm exploring the fascinating world of Machine Learning.">
+                               Sou estudante de Análise e Desenvolvimento de Sistemas, com foco em desenvolvimento web e tecnologias emergentes. Tenho experiência prática em Python, desenvolvimento web moderno e estou explorando o fascinante mundo do Machine Learning.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Section -->
+        <section id="trabalhos" class="work-section">
+            <div class="container">
+                <div class="section-content">
+                    <h2 class="section-title" data-pt="Experiência Profissional" data-en="Professional Experience">Experiência Profissional</h2>
+                    <div class="work-grid">
+                        <div class="work-card">
+                            <div class="work-header">
+                                <h3 data-pt="Iniciante na Área" data-en="Beginner in the Field">Iniciante na Área</h3>
+                                <span class="work-period" data-pt="2025 - Atualmente" data-en="2025 - Currently">2025 - Atualmente</span>
+                            </div>
+                            <p data-pt="Começando minha jornada profissional na área de desenvolvimento de software, aplicando conhecimentos adquiridos durante os estudos."
+                               data-en="Starting my professional journey in software development, applying knowledge acquired during studies.">
+                               Começando minha jornada profissional na área de desenvolvimento de software, aplicando conhecimentos adquiridos durante os estudos.
+                            </p>
+                        </div>
+                        <div class="work-card">
+                            <div class="work-header">
+                                <h3 data-pt="Estudante" data-en="Student">Estudante</h3>
+                                <span class="work-period" data-pt="2024 - Atualmente" data-en="2024 - Currently">2024 - Atualmente</span>
+                            </div>
+                            <p data-pt="Cursando Análise e Desenvolvimento de Sistemas, focando em tecnologias web modernas, Python e fundamentos de Machine Learning."
+                               data-en="Studying Systems Development Analysis, focusing on modern web technologies, Python and Machine Learning fundamentals.">
+                               Cursando Análise e Desenvolvimento de Sistemas, focando em tecnologias web modernas, Python e fundamentos de Machine Learning.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contato" class="contact-section">
+            <div class="container">
+                <div class="section-content">
+                    <h2 class="section-title" data-pt="Contato" data-en="Contact">Contato</h2>
+                    <div class="contact-grid">
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <h3 data-pt="Email" data-en="Email">Email</h3>
+                                <a href="mailto:samyla.passos@email.com">samyla.passos@email.com</a>
+                            </div>
+                            <div class="contact-item">
+                                <h3 data-pt="GitHub" data-en="GitHub">GitHub</h3>
+                                <a href="https://github.com/samylapassos-git" target="_blank" rel="noopener noreferrer">
+                                    github.com/samylapassos-git
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
